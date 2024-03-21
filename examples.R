@@ -20,7 +20,7 @@ same_object <- function(x, y) {
   if(obj_addr(x) == obj_addr(y)) {
     message(paste("x and y have same addresses = ", obj_addr(x)))
   } else {
-    message(paste("x and y have different addresses (", obj_addr(x), ",", obj_addr(y), sep=""))
+    message(paste("x and y have different addresses (", obj_addr(x), ",", obj_addr(y), ")", sep=""))
   }
 }
 
