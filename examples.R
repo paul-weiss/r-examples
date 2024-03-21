@@ -30,9 +30,15 @@ y <- x
 
 same_object(x, y)
 
+# copy on modify
+y[[3]] <- 4
+
+same_object(x, y)
+
 a <- 1:10
 b <- a
 c <- b
 d <- 1:10
 
-same_object(a,d)
+same_object(a, d)
+
